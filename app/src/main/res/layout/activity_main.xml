@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--View体系与自定义View概述（View与ViewGroup关系、View坐标系、View滑动、工作流程）；
+    2、View事件分发机制
+    3、自定义继承系统控件View
+    4、自定义继承View的View
+    5、自定义组合控件
+    6、自定义ViewGroup-->
+
+    <Button
+        android:id="@+id/btn_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View体系与自定义View概述" />
+
+    <Button
+        android:id="@+id/btn_view_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View事件分发机制" />
+
+    <Button
+        android:id="@+id/btn_view_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义继承系统控件View" />
+
+    <Button
+        android:id="@+id/btn_view_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义继承View的View" />
+
+    <Button
+        android:id="@+id/btn_view_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义组合控件" />
+
+    <Button
+        android:id="@+id/btn_view_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义ViewGroup" />
+
+    <Button
+        android:id="@+id/btn_view_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="other" />
+
+
+</LinearLayout>
