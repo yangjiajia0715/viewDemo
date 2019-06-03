@@ -2,6 +2,7 @@ package com.jiajia.viewdemo;
 
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -20,6 +21,7 @@ import butterknife.OnClick;
  */
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
+    private CountDownTimer mCountDownTimer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,12 +39,37 @@ public class MainActivity extends AppCompatActivity {
                 xmlPullParser();
                 break;
             case R.id.btn_view_2:
+                mCountDownTimer = new CountDownTimer(20000, 5000) {
+
+                    @Override
+                    public void onTick(long millisUntilFinished) {
+                        Log.d(TAG, "onTick: millisUntilFinished=" + millisUntilFinished);
+                    }
+
+                    @Override
+                    public void onFinish() {
+                        Log.d(TAG, "onTick: millisUntilFinished onFinish=" );
+                    }
+                };
+                mCountDownTimer.start();
                 break;
             case R.id.btn_view_3:
+                Log.d(TAG, "onTick: cancel " );
+                mCountDownTimer.cancel();
                 break;
             case R.id.btn_view_4:
+                // 123456 36
+                long millisUntilFinished = 123456789L;
+                long seconds = millisUntilFinished / 1000 % 60;
+                Log.d(TAG, "onViewClicked: ///=" + (millisUntilFinished / 1000));
+                Log.d(TAG, "onViewClicked: ///=" + Math.round(millisUntilFinished / 1000.0f));
+                Log.d(TAG, "onViewClicked: ///=" + (Math.round(millisUntilFinished / 1000.0) % 60));
+                Log.d(TAG, "onViewClicked: seconds=" + seconds);
+                // 21 00000 00000
+                //
                 break;
             case R.id.btn_view_5:
+
                 break;
             case R.id.btn_view_6:
                 break;
