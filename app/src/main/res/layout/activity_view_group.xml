@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary" />
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent">
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/color_666666">
+    </TableLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </android.support.constraint.ConstraintLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_fea73d"
+        android:layout_gravity="center"
+        android:rowCount="3"
+        android:columnCount="4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="网格布局" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@color/color_666666"
+            android:text="跨行" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="跨列" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:background="@color/color_999999"
+            android:text="重心位置" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="重心位置" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="跨列" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:background="@color/color_999999"
+            android:text="重心位置" />
+    </GridLayout>
+
+
+</LinearLayout>
