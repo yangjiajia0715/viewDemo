@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 LifeCircleActivity.start(this);
                 break;
             case R.id.btn_view_6:
+                ProgressBarActivity.start(this);
                 break;
             case R.id.btn_view_7:
                 break;
