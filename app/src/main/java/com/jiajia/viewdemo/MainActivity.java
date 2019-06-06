@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 ProgressBarActivity.start(this);
                 break;
             case R.id.btn_view_7:
+                CountDownTimerActivity.start(this);
                 break;
             default:
                 break;
