@@ -2,24 +2,45 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@android:id/background">
         <shape android:shape="rectangle">
-            <corners android:radius="20dp"/>
-            <gradient android:startColor="#99ec5639"
-                android:endColor="#99ec5639"/>
+            <corners android:radius="20dp" />
+            <gradient
+                android:endColor="#99ec5639"
+                android:startColor="#99ec5639" />
         </shape>
     </item>
-    <item android:id="@android:id/progress">
-        <!--<scale android:scaleWidth="100%" >&lt;!&ndash;可裁剪对象  clip&ndash;&gt;-->
-            <!--<shape android:shape="rectangle">-->
-                <!--<corners android:radius="20dp"/>-->
-                <!--<gradient android:angle="45"-->
-                    <!--android:startColor="#ec5639"-->
-                    <!--android:endColor="#ec5639"/>-->
-            <!--</shape>-->
-        <!--</scale>-->
 
-        <clip >
-            <shape>
-                <corners android:radius="20dp"/>
+    <!--<item android:id="@android:id/secondaryProgress">
+        <scale
+            android:drawable="@drawable/progress_bar_ct"
+            android:scaleWidth="100%">
+        </scale>
+    </item>-->
+
+    <item android:id="@android:id/progress">
+
+        <!-- <scale
+             android:drawable="@drawable/bg_btn_clear_msg"
+             android:scaleWidth="100%" />-->
+
+        <!--progress_bar_ct-->
+        <!--<scale
+            android:drawable="@drawable/progress_bar_ct"
+            android:scaleWidth="100%">
+            &lt;!&ndash;<shape android:shape="rectangle">
+                <corners
+                    android:bottomLeftRadius="20dp"
+                    android:topLeftRadius="20dp" />
+                <corners />
+
+                <gradient
+                    android:angle="45"
+                    android:endColor="#ec5639"
+                    android:startColor="#ec5639" />
+            </shape>&ndash;&gt;
+        </scale>-->
+        <clip>
+            <shape >
+                <corners android:radius="8dp"/>
                 <gradient android:startColor="#ec5639"
                     android:endColor="#ec5639"/>
             </shape>

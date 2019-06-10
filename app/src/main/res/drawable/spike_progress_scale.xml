@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <corners android:radius="8dp" />
+            <gradient
+                android:endColor="#99ec5639"
+                android:startColor="#99ec5639" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+
+       <!-- <scale
+            android:drawable="@drawable/bg_btn_clear_msg"
+            android:scaleWidth="100%" />-->
+
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <corners android:radius="8dp"/>
+
+                <!--<corners
+                    android:bottomLeftRadius="8dp"
+                    android:topLeftRadius="8dp" />
+                <corners />-->
+
+                <gradient
+                    android:angle="45"
+                    android:endColor="#ec5639"
+                    android:startColor="#ec5639" />
+            </shape>
+        </scale>
+        <!--<clip>
+            <shape >
+                <corners android:radius="8dp"/>
+                <gradient android:startColor="#ec5639"
+                    android:endColor="#ec5639"/>
+            </shape>
+        </clip>-->
+    </item>
+</layer-list>

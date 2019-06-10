@@ -6,18 +6,99 @@
     android:padding="10dp">
 
     <ProgressBar
-        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-        android:layout_width="130dp"
-        android:layout_height="14dp"
-        android:layout_marginBottom="3dp"
-        android:progress="20"
-        android:progressDrawable="@drawable/spike_progress" />
-
-    <ProgressBar
         android:id="@+id/progressSelf"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="130dp"
         android:layout_height="14dp"
+        android:layout_marginBottom="3dp"
+        android:indeterminateOnly="false"
+        android:max="100"
         android:progress="2"
+        android:progressDrawable="@drawable/dialog_progress_progressbar" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="3dp"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progress="20"
+        android:progressDrawable="@drawable/dialog_progress_progressbar" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="3dp"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progress="96"
+        android:progressDrawable="@drawable/dialog_progress_progressbar" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="3dp"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progress="100"
         android:progressDrawable="@drawable/spike_progress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-------------------------------" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="3dp"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progress="2"
+        android:progressDrawable="@drawable/spike_progress_scale" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="3dp"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progress="6"
+        android:progressDrawable="@drawable/spike_progress_scale" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="3dp"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progress="8"
+        android:progressDrawable="@drawable/spike_progress_scale" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="3dp"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progress="10"
+        android:progressDrawable="@drawable/spike_progress_scale" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="130dp"
+        android:layout_height="14dp"
+        android:layout_marginBottom="3dp"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progress="20"
+        android:progressDrawable="@drawable/spike_progress_scale" />
+
 </LinearLayout>

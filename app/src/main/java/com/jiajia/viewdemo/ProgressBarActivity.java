@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
  * @author yangjiajia
  */
 public class ProgressBarActivity extends AppCompatActivity {
+
     public static void start(Context context) {
         Intent starter = new Intent(context, ProgressBarActivity.class);
         context.startActivity(starter);
