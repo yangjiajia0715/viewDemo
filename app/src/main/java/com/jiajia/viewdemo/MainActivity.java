@@ -8,6 +8,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import com.jiajia.viewdemo.activity.CustomViewActivity;
+
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -74,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
                 ProgressBarActivity.start(this);
                 break;
             case R.id.btn_view_7:
-                CountDownTimerActivity.start(this);
+//                CountDownTimerActivity.start(this);
+                CustomViewActivity.start(this);
                 break;
             default:
                 break;
