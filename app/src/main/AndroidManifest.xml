@@ -10,7 +10,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,10 +18,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".ViewGroupActivity" />
-        <activity android:name=".LifeCircleActivity" />
-        <activity android:name=".ProgressBarActivity" />
-        <activity android:name=".CountDownTimerActivity" />
+        <activity android:name=".activity.ViewGroupActivity" />
+        <activity android:name=".activity.LifeCircleActivity" />
+        <activity android:name=".activity.ProgressBarActivity" />
+        <activity android:name=".activity.CountDownTimerActivity" />
 
         <!--
             android:theme="@style/CustomViewActivity1"-->

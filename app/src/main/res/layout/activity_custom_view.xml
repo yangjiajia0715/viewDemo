@@ -9,6 +9,7 @@
         style="@style/xml_style"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        app:attr11="attr11-Value"
+        app:attr1="attr11-Value"
         android:background="@color/color_999999" />
+
 </LinearLayout>

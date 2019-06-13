@@ -1,4 +1,4 @@
-package com.jiajia.viewdemo;
+package com.jiajia.viewdemo.activity;
 
 import android.content.res.XmlResourceParser;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.jiajia.viewdemo.activity.CustomViewActivity;
+import com.jiajia.viewdemo.R;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -41,19 +41,19 @@ public class MainActivity extends AppCompatActivity {
                 xmlPullParser();
                 break;
             case R.id.btn_view_2:
-                mCountDownTimer = new CountDownTimer(20000, 5000) {
-
-                    @Override
-                    public void onTick(long millisUntilFinished) {
-                        Log.d(TAG, "onTick: millisUntilFinished=" + millisUntilFinished);
-                    }
-
-                    @Override
-                    public void onFinish() {
-                        Log.d(TAG, "onTick: millisUntilFinished onFinish=" );
-                    }
-                };
-                mCountDownTimer.start();
+//                mCountDownTimer = new CountDownTimer(20000, 5000) {
+//
+//                    @Override
+//                    public void onTick(long millisUntilFinished) {
+//                        Log.d(TAG, "onTick: millisUntilFinished=" + millisUntilFinished);
+//                    }
+//
+//                    @Override
+//                    public void onFinish() {
+//                        Log.d(TAG, "onTick: millisUntilFinished onFinish=" );
+//                    }
+//                };
+//                mCountDownTimer.start();
                 break;
             case R.id.btn_view_3:
                 ViewGroupActivity.start(this);

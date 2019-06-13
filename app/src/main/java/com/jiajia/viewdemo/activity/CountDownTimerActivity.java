@@ -1,4 +1,4 @@
-package com.jiajia.viewdemo;
+package com.jiajia.viewdemo.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.jiajia.viewdemo.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

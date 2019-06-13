@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".activity.MainActivity">
     <!--View体系与自定义View概述（View与ViewGroup关系、View坐标系、View滑动、工作流程）；
     2、View事件分发机制
     3、自定义继承系统控件View

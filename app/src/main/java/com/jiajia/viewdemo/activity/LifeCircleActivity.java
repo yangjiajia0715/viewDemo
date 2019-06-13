@@ -1,4 +1,4 @@
-package com.jiajia.viewdemo;
+package com.jiajia.viewdemo.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+
+import com.jiajia.viewdemo.R;
 
 /**
  * @author yangjiajia
