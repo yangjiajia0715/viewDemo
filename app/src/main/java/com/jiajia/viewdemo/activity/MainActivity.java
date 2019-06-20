@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 xmlPullParser();
                 break;
             case R.id.btn_view_2:
+                EventDispatchActivity.start(this);
 //                mCountDownTimer = new CountDownTimer(20000, 5000) {
 //
 //                    @Override

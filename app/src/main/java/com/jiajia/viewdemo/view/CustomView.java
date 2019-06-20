@@ -5,6 +5,7 @@ import android.content.res.TypedArray;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 
 import com.jiajia.viewdemo.R;
@@ -36,10 +37,19 @@ public class CustomView extends View {
         Log.d(TAG, "attr5 => " + array.getString(R.styleable.CustomView_attr5));
         Log.d(TAG, "attr6 => " + array.getString(R.styleable.CustomView_attr6));
         array.recycle();
-
     }
 
-//    public ConstructorView(Context context, @androidx.annotation.Nullable @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event) {
+        return super.dispatchTouchEvent(event);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        return super.onTouchEvent(event);
+    }
+
+    //    public ConstructorView(Context context, @androidx.annotation.Nullable @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
 //        super(context, attrs, defStyleAttr, defStyleRes);
 //    }
 }

@@ -27,6 +27,7 @@
             android:theme="@style/CustomViewActivity1"-->
         <activity
             android:name=".activity.CustomViewActivity" />
+        <activity android:name=".activity.EventDispatchActivity" />
     </application>
 
 </manifest>
